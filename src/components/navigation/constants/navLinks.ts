@@ -6,17 +6,17 @@ export const navLinks = [
     },
     {
         title: 'About',
-        path: '/',
+        path: '/about',
         className: 'about'
     },
     {
         title: 'Blog',
-        path: '/',
+        path: '/blog',
         className: 'blog'
     },
     {
         title: 'Resume',
-        path: '/',
+        path: '/resume.pdf',
         className: 'resume'
     }
 ]
