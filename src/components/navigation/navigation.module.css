@@ -41,10 +41,9 @@
   color: var(--black-color);
 }
 
-.mobileNav{
+.mobileNav {
   display: none;
 }
-
 
 /* Small devices (landscape phones, 576px and up) */
 /* rename rightSide and left side by logo / navigation etc.. */
@@ -53,7 +52,7 @@
     display: none;
   }
 
-  .mobileNav{
+  .mobileNav {
     display: block;
   }
 
@@ -74,7 +73,7 @@
     text-transform: none;
     transition-timing-function: linear;
     transition-duration: 0.15s;
-    transition-property: opacity, filter;    
+    transition-property: opacity, filter;
   }
 
   .hamBox {
@@ -93,7 +92,8 @@
     background-color: var(--green);
   }
 
-  .hamBoxInner::before, .hamBoxInner::after {
+  .hamBoxInner::before,
+  .hamBoxInner::after {
     content: "";
     display: block;
     position: absolute;
@@ -108,55 +108,66 @@
     width: 120%;
     top: -10px;
     opacity: 1;
-    transition: top 0.1s ease-in 0.25s,opacity 0.1s ease-in;
+    transition:
+      top 0.1s ease-in 0.25s,
+      opacity 0.1s ease-in;
   }
   .hamBoxInner::after {
     width: 80%;
     bottom: -10px;
     transform: rotate(0deg);
-    transition: bottom 0.1s ease-in 0.25s,transform 0.22s cubic-bezier(0.55,0.055,0.675,0.19);
+    transition:
+      bottom 0.1s ease-in 0.25s,
+      transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
 
-  .burgerMenu[data-open='true'] .hamBoxInner { 
+  .burgerMenu[data-open="true"] .hamBoxInner {
     transition: transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
     transform: rotate(225deg);
   }
 
-  .burgerMenu[data-open='false'] .hamBoxInner {
+  .burgerMenu[data-open="false"] .hamBoxInner {
     transition: transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     transform: rotate(0deg);
   }
 
-  .burgerMenu[data-open='false'] .hamBoxInner::before {
+  .burgerMenu[data-open="false"] .hamBoxInner::before {
     width: 120%;
     top: -10px;
     opacity: 1;
-    transition: top 0.1s ease-in 0.25s,opacity 0.1s ease-in;
+    transition:
+      top 0.1s ease-in 0.25s,
+      opacity 0.1s ease-in;
   }
 
-  .burgerMenu[data-open='false'] .hamBoxInner::after {
+  .burgerMenu[data-open="false"] .hamBoxInner::after {
     width: 80%;
     bottom: -10px;
     transform: rotate(0deg);
-    transition: bottom 0.1s ease-in 0.25s,transform 0.22s cubic-bezier(0.55,0.055,0.675,0.19);
+    transition:
+      bottom 0.1s ease-in 0.25s,
+      transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   }
 
-  .burgerMenu[data-open='true'] .hamBoxInner::before {
+  .burgerMenu[data-open="true"] .hamBoxInner::before {
     width: 100%;
     top: 0px;
     opacity: 0;
-    transition: top 0.1s ease-out,opacity 0.1s ease-out 0.12s;
+    transition:
+      top 0.1s ease-out,
+      opacity 0.1s ease-out 0.12s;
   }
 
-  .burgerMenu[data-open='true'] .hamBoxInner::after {
+  .burgerMenu[data-open="true"] .hamBoxInner::after {
     width: 100%;
     bottom: 0px;
     transform: rotate(-90deg);
-    transition: bottom 0.1s ease-out,transform 0.22s cubic-bezier(0.215,0.61,0.355,1) 0.12s;
+    transition:
+      bottom 0.1s ease-out,
+      transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
   }
 
   /** END BURGER */
-
 
   .asideDrawer {
     display: flex;
@@ -175,15 +186,15 @@
     background-color: var(--black-color);
     box-shadow: -10px 0px 30px -15px var(--eight-color);
     z-index: 9;
-    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   }
 
-  .asideDrawer[data-open='true'] {
+  .asideDrawer[data-open="true"] {
     visibility: visible;
     transform: translateX(0vw);
   }
 
-  .asideDrawer[data-open='false'] {
+  .asideDrawer[data-open="false"] {
     visibility: hidden;
     transform: translateX(100vw);
   }
@@ -217,11 +228,12 @@
     text-decoration-skip-ink: auto;
     color: inherit;
     position: relative;
-    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     width: 100%;
     padding: 3px 20px 20px;
   }
-  .asideDrawer ul a:hover, .asideDrawer ul a:focus-visible {
+  .asideDrawer ul a:hover,
+  .asideDrawer ul a:focus-visible {
     color: var(--white-color);
     outline: 0px;
   }
@@ -229,7 +241,6 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
 }
 
 /* Large devices (desktops, 1024px and up) */

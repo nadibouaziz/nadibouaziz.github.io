@@ -5,19 +5,19 @@ import { useState } from "react";
 import Drawer from "./Drawer";
 import Burger from "./Burger";
 import { useWidth } from "@/utils/hook";
-import styles from '../navigation.module.css';
+import styles from "../navigation.module.css";
 
 const NavMenuMobile = () => {
   const [menuActive, setMenuActive] = useState(false);
 
   const toggleBurger = (
-    event: React.MouseEvent<HTMLButtonElement, MouseEvent>
+    event: React.MouseEvent<HTMLButtonElement, MouseEvent>,
   ) => {
     setMenuActive(!menuActive);
   };
 
   const resetMenu = (
-    event: React.MouseEvent<HTMLAnchorElement, MouseEvent>
+    event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
   ) => {
     setMenuActive(false);
   };

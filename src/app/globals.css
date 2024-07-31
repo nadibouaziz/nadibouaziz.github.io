@@ -3,10 +3,12 @@
   --green: #2bcea8;
   --black-color: #000000;
   --white-color: #ffffff;
-  --font-mono: 'SF Mono', 'Roboto Mono', monospace;
+  --font-mono: "SF Mono", "Roboto Mono", monospace;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
 }

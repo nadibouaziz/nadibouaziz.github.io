@@ -1,4 +1,4 @@
-import styles from './navigation.module.css';
+import styles from "./navigation.module.css";
 
 const Logo = () => {
   return (
