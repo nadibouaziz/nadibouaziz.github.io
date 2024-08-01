@@ -1,0 +1,23 @@
+:root {
+  --main-color: #0a192f;
+  --green: #2bcea8;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --font-mono: "SF Mono", "Roboto Mono", monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 100px;
+}
