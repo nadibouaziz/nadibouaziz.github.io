@@ -8,6 +8,7 @@
   width: 100%;
   height: 100px;
   background-color: rgba(10, 25, 47, 0.85);
+  z-index: 99;
 }
 
 .logo {
@@ -46,7 +47,6 @@
 }
 
 /* Small devices (landscape phones, 576px and up) */
-/* rename rightSide and left side by logo / navigation etc.. */
 @media only screen and (max-width: 576px) {
   .desktopMenu {
     display: none;

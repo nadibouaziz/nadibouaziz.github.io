@@ -1,0 +1,87 @@
+.container {
+  display: grid;
+  align-items: center;
+  min-height: 70vh;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fullName {
+  margin-bottom: 2rem;
+  font-size: clamp(3rem, 10vmin, 15rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.025em;
+}
+
+.firstName {
+  display: inline-block;
+  color: #cbd5e1;
+}
+
+.lastName {
+  display: block;
+  margin-top: -0.2em;
+  color: #64748b;
+}
+.shapes {
+  z-index: 0;
+  aspect-ratio: 1 / 1;
+}
+
+.jobTitle {
+  display: inline-block;
+  background-image: linear-gradient(to top right, #f00b31, #1b7ca8, #20ff33);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  opacity: 0;
+}
+
+.letterAnimation {
+  display: inline-block;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+  .container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .shapes {
+    grid-row-start: 1;
+    grid-row: span 1 / span 1;
+  }
+  .information {
+    grid-column-start: 1;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .jobTitle {
+    font-size: 2.25rem;
+  }
+  .container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .shapes {
+    grid-column-start: 2;
+    grid-column: span 1 / span 1;
+  }
+  .information {
+    grid-row-start: 1;
+  }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
