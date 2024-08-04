@@ -59,11 +59,11 @@ const Hero = () => {
   };
 
   return (
-    <section ref={component}>
+    <section ref={component} >
       <div className={styles.container}>
         <Shapes />
         <div className={styles.information}>
-          <h1 className={styles.fullName} aria-label="Nadi Bouaziz">
+          <h1 className={styles.fullName} aria-label="Four Letters">
             <span className={styles.firstName}>
               {renderLetters("Nadi", "first")}
             </span>
