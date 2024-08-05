@@ -1,3 +1,5 @@
+import Blog from "@/components/blog/Blog";
+
 export default function Page() {
-  return <div className="main">Blog Page</div>;
+  return <Blog />;
 }
