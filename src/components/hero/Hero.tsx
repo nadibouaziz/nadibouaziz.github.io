@@ -59,7 +59,7 @@ const Hero = () => {
   };
 
   return (
-    <section ref={component} >
+    <section ref={component}>
       <div className={styles.container}>
         <Shapes />
         <div className={styles.information}>

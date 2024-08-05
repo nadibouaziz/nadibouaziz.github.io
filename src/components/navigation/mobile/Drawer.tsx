@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "../navigation.module.css";
-import { navLinks } from "../constants/navLinks";
+import { navLinks } from "../../../constants/navLinks";
 
 type DrawerStatus = {
   isOpenClose: boolean;
