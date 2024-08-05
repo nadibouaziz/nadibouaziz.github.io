@@ -63,7 +63,7 @@ const Hero = () => {
       <div className={styles.container}>
         <Shapes />
         <div className={styles.information}>
-          <h1 className={styles.fullName} aria-label="Four Letters">
+          <h1 className={styles.fullName} aria-label="Nadi Bouaziz">
             <span className={styles.firstName}>
               {renderLetters("Nadi", "first")}
             </span>

@@ -19,8 +19,6 @@
 .lastName {
   display: block;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .firstName {
@@ -77,6 +75,8 @@
   }
 
   .fullName {
+    display: flex;
+    gap: 2rem;
     font-size: clamp(3rem, 12vw, 20rem);
   }
 
