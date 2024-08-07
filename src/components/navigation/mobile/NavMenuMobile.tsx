@@ -1,5 +1,3 @@
-"use client";
-
 import { useState } from "react";
 
 import Drawer from "./Drawer";
@@ -24,7 +22,7 @@ const NavMenuMobile = () => {
 
   // BUG FIX: cleaner way
   const width = useWidth();
-  if (width > 576 && menuActive) setMenuActive(false);
+  if (width > 810 && menuActive) setMenuActive(false);
 
   return (
     <div className={styles.mobileNav}>
