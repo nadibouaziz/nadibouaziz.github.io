@@ -17,12 +17,12 @@ const Drawer = ({ isOpenClose, resetMenu }: DrawerStatus) => {
         <ul>
           {navLinks.map((e) => (
             <li key={e.path}>
-              <Link 
+              <Link
                 onClick={resetMenu}
                 href={e.path}
                 className={`
                   ${currentPath === e.path ? styles.active : ""}
-                  ${e.className  ? styles[e.className] : ""}
+                  ${e.className ? styles[e.className] : ""}
                 `.trim()}
               >
                 {e.title}

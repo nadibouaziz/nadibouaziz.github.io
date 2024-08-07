@@ -36,7 +36,7 @@ const ExperienceCard = ({ experience }: { experience: ExperienceItem }) => (
           width={60}
           height={60}
           className={styles.iconImage}
-          style={{borderRadius: "30px"}}
+          style={{ borderRadius: "30px" }}
         />
       </div>
     }
@@ -62,9 +62,7 @@ const Experience = () => {
   return (
     <section>
       <div>
-        <h2 className="sectionHeadText textCenter" >
-          Work Experience
-        </h2>
+        <h2 className="sectionHeadText textCenter">Work Experience</h2>
       </div>
 
       <div className={styles.timelineWrapper}>

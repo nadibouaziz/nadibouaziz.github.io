@@ -22,9 +22,7 @@ const GolfBall = ({ iconUrl }: GolfBallProps) => {
       {/* scale of the golf ball */}
       <mesh scale={3}>
         <icosahedronGeometry args={[1, 1]} />
-        <meshStandardMaterial 
-          color="#fff" 
-        flatShading />
+        <meshStandardMaterial color="#fff" flatShading />
         {/* Scale of the picture */}
         <Decal
           scale={1}

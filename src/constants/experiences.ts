@@ -8,7 +8,7 @@ export const experiences = [
     points: [
       "Developed a notification service using NestJS, Kafka, Zookeeper and related technologies, enabling real-time price negotiations with warehouses.",
       "Engaged in bi-weekly sprints, contributing to sprint planning, reviews, and retrospectives to enhance team performance and product quality",
-      "Developed a custom Transporter in NestJS for the Stomp protocol, connected with ActiveMQ."
+      "Developed a custom Transporter in NestJS for the Stomp protocol, connected with ActiveMQ.",
     ],
   },
   {
@@ -43,8 +43,7 @@ export const experiences = [
     points: [
       "Developing and maintaining web applications using Magento ( PHP ) and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Orchestrated AWS architecture to forecast and handle peak server loads during high-traffic events like China's 11/11, ensuring optimal website performance and customer satisfaction."      
+      "Orchestrated AWS architecture to forecast and handle peak server loads during high-traffic events like China's 11/11, ensuring optimal website performance and customer satisfaction.",
     ],
   },
 ];
-

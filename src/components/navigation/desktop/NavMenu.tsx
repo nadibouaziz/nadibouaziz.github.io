@@ -14,7 +14,7 @@ const NavMenuDesktop = () => {
           href={e.path}
           className={`
             ${currentPath === e.path ? styles.active : ""}
-            ${e.className  ? e.className : ""}
+            ${e.className ? e.className : ""}
           `.trim()}
         >
           {e.title}
