@@ -24,7 +24,7 @@ const Profile = () => {
           challenging projects. I&lsquo;m great at quickly getting up to speed
           and breaking down tricky business requirements for industry-specific
           systems. My curiosity, however, reaches beyond the boundaries of
-          conventional development; I&lsquo;ve a great interest in the the
+          conventional development; I&lsquo;ve a great interest in the
           fascinating world of DevOps and Cloud.
         </p>
 
