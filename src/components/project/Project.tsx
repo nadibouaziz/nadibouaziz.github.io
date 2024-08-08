@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Blog = () => {
+const Project = () => {
   return (
     <section>
       <Image
@@ -13,4 +13,4 @@ const Blog = () => {
     </section>
   );
 };
-export default Blog;
+export default Project;
