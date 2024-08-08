@@ -6,7 +6,7 @@ const Pill = () => {
       <Float speed={5} rotationIntensity={4} floatIntensity={1}>
         <mesh>
           <capsuleGeometry args={[0.5, 1.6, 2, 4]} />
-          <meshStandardMaterial color="red" roughness={0.1} />
+          <meshStandardMaterial color="#ad1313" roughness={0.3} />
         </mesh>
       </Float>
     </group>

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import NavMenuDesktop from "./desktop/NavMenu";
 import NavMenuMobile from "./mobile/NavMenuMobile";
 import styles from "./navigation.module.css";
@@ -29,7 +30,9 @@ const Header = () => {
       className={`${styles.containerHeader} ${isScrolled ? styles.scrolled : ""}`}
     >
       <header className={styles.header}>
-        <span className={styles.logo}>Nadi.</span>
+        <Link className={styles.logo} href="/">
+          <span >Nadi</span>
+        </Link>
         <NavMenuDesktop />
         <NavMenuMobile />
       </header>
