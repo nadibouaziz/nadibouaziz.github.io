@@ -79,9 +79,17 @@ a.resume:hover {
   font-size: 56px;
   font-weight: bold;
   color: var(--white-color);
-  margin: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .textCenter {
   text-align: center;
+}
+
+@media only screen and (max-width: 810px) {
+  a.resume:hover {
+    background: transparent;
+    color: var(--green);
+  }
 }
